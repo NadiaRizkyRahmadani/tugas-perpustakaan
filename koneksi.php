@@ -19,4 +19,6 @@ if (!$koneksi) {
     die("Koneksi gagal: " . htmlspecialchars(mysqli_connect_error()));
 }
 
+echo "koneksi berhasil";
+
 mysqli_set_charset($koneksi, "utf8mb4");
